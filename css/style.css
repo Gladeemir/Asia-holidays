@@ -1,27 +1,28 @@
 body { 
 background:  url(D:/Верстка/Asia-holidays/img/bg.png)center no-repeat fixed;
-background-size: cover;
+background-size: cover;s
 }
 
 .wrapper {
 	margin: 0 auto;
-	width: 1150px;
-	height: 700px;
+	width: 850px;
 }
 
-.header_logo{
-	
+.header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 .main_logo {	
-	padding-top: 120px;
-
+	position: absolute;
+	top: 110px;
 }
 
 .palm_logo {
 	position: absolute;
-	padding-left: 145px;
-	padding-top: 50px;
+	padding-top: 45px;
+	padding-left: 150px;
 }
 
 .logo_text {
@@ -31,15 +32,77 @@ background-size: cover;
 	font-size: 11.5px;
 	font-weight: bold;
 	padding-left: 80px;
-	padding-top: 170px;
+	padding-top: 160px;
 }
 
 .contacts {
 	color: #e6e6e6;
 	font-family: arial , sans-serif;
-	font-size: 11.5px;
+	font-size: 10px;
 	line-height: 1.5;
-	margin-top: -45px;
-	margin-left: 1000px;
+	padding-top: 130px;
+	margin-left: 715px;
 	font-weight: bold;
+}
+
+.countries {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.countries_item {
+	margin:  2% 1%;
+	border: 3px ridge  #aaaaaa;
+	box-shadow: 0px 0px 6px 0px rgba(0,0,0,1),
+	 		inset 0px 0px 6px 0px rgba(0,0,0,1);
+
+}
+
+.india_photo{
+	background: url(../img/india_photo.png) no-repeat;
+	background-size: 100;
+	width: 258px;
+	height: 176px;
+}
+
+.nepal_photo {
+	background: url(../img/nepal_photo.png) no-repeat;
+	background-size: 100;
+	width: 258px;
+	height: 176px;
+}
+
+.tibet_photo {
+	background: url(../img/tibet_photo.png) no-repeat;
+	background-size: 100;
+	width: 258px;
+	height: 176px;
+}
+.bhutan_photo {
+	background: url(../img/bhutan_photo.png) no-repeat;
+	background-size: 100;
+	width: 258px;
+	height: 176px;
+}
+.sri-lanka_photo {
+	background: url(../img/sri-lanka_photo.png) no-repeat;
+	background-size: 100;
+	width: 258px;
+	height: 176px;
+}
+.maldives_photo {
+	background: url(../img/maldives_photo.png) no-repeat;
+	background-size: 100;
+	width: 258px;
+	height: 176px;
+}
+.footer {
+	display: flex;
+	color: #e6e6e6;
+	font-family: arial , sans-serif;
+	font-size: 11.5px;
+	padding-left: 330px;
+	padding-top: 100px;
 }
