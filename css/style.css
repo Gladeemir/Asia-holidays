@@ -1,0 +1,45 @@
+body { 
+background:  url(D:/Верстка/Asia-holidays/img/bg.png)center no-repeat fixed;
+background-size: cover;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 1150px;
+	height: 700px;
+}
+
+.header_logo{
+	
+}
+
+.main_logo {	
+	padding-top: 120px;
+
+}
+
+.palm_logo {
+	position: absolute;
+	padding-left: 145px;
+	padding-top: 50px;
+}
+
+.logo_text {
+	position: absolute;
+	color: #e6e6e6;
+	font-family: arial , sans-serif;
+	font-size: 11.5px;
+	font-weight: bold;
+	padding-left: 80px;
+	padding-top: 170px;
+}
+
+.contacts {
+	color: #e6e6e6;
+	font-family: arial , sans-serif;
+	font-size: 11.5px;
+	line-height: 1.5;
+	margin-top: -45px;
+	margin-left: 1000px;
+	font-weight: bold;
+}
