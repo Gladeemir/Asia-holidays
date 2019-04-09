@@ -1,12 +1,14 @@
 body { 
 background:  url(D:/Верстка/Asia-holidays/img/bg.png)center no-repeat fixed;
-background-size: cover;s
+background-size: cover;
 }
 
 .wrapper {
 	margin: 0 auto;
 	width: 850px;
 }
+
+ /* Header */
 
 .header{
 	display: flex;
@@ -44,6 +46,8 @@ background-size: cover;s
 	margin-left: 715px;
 	font-weight: bold;
 }
+ 
+ /* Main content */
 
 .countries {
 	display: flex;
@@ -52,12 +56,25 @@ background-size: cover;s
 	justify-content: center;
 }
 
-.countries_item {
-	margin:  2% 1%;
+.countries_photo {
 	border: 3px ridge  #aaaaaa;
 	box-shadow: 0px 0px 6px 0px rgba(0,0,0,1),
 	 		inset 0px 0px 6px 0px rgba(0,0,0,1);
 
+}
+
+.countries_item {
+	margin:  2% 1%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.countries_title {
+	color: #e6e6e6;
+	font-family: arial , sans-serif;
+	font-size: 13px;
+	padding-top: 2px;
 }
 
 .india_photo{
@@ -98,11 +115,15 @@ background-size: cover;s
 	width: 258px;
 	height: 176px;
 }
+
+/* Footer */
+
 .footer {
 	display: flex;
+	flex-direction: row;
+	justify-content: center;
 	color: #e6e6e6;
 	font-family: arial , sans-serif;
 	font-size: 11.5px;
-	padding-left: 330px;
-	padding-top: 100px;
+	margin-top: 150px;
 }
