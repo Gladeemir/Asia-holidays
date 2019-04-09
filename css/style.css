@@ -1,6 +1,7 @@
-body { 
-background:  url(D:/Верстка/Asia-holidays/img/bg.png)center no-repeat fixed;
+.background_wrapper { 
+background:  url(../img/bg.png)center no-repeat fixed;
 background-size: cover;
+background-attachment: scroll;
 }
 
 .wrapper {
@@ -10,7 +11,7 @@ background-size: cover;
 
  /* Header */
 
-.header{
+.header {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -38,6 +39,8 @@ background-size: cover;
 }
 
 .contacts {
+	display: flex;
+	flex-direction: column;
 	color: #e6e6e6;
 	font-family: arial , sans-serif;
 	font-size: 10px;
@@ -59,8 +62,7 @@ background-size: cover;
 .countries_photo {
 	border: 3px ridge  #aaaaaa;
 	box-shadow: 0px 0px 6px 0px rgba(0,0,0,1),
-	 		inset 0px 0px 6px 0px rgba(0,0,0,1);
-
+	inset 0px 0px 6px 0px rgba(0,0,0,1);
 }
 
 .countries_item {
@@ -72,7 +74,7 @@ background-size: cover;
 
 .countries_title {
 	color: #e6e6e6;
-	font-family: arial , sans-serif;
+	font-family: arial, sans-serif;
 	font-size: 13px;
 	padding-top: 2px;
 }
